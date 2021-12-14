@@ -5,6 +5,7 @@ import {Container, Row, Col} from 'react-bootstrap'
 import Navbar from './components/Navbar'
 import Card from './components/Card'
 import Jumbo from './components/Jumbo'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Col><Card/></Col>
         </Row>
       </Container>
+      <Footer/>
     </React.Fragment>
   )
 }
